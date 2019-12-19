@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+a {
+    color: blue;
+    font-size: 12px;
+}
+
+.imgcont {
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+img {
+    height: 92px;
+    width: 272px;
+}
