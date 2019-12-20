@@ -1,19 +1,30 @@
 body {
-    margin: 0;
+    margin: 20px 30px;
+}
+
+nav {
+    text-align: right;
+}
+
+main {
+    text-align: center;
 }
 
 a {
-    color: blue;
-    font-size: 12px;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
 }
 
-.imgcont {
-    margin: auto;
-    text-align: center;
-    display: block;
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 img {
     height: 92px;
     width: 272px;
+    padding: 150px 10px 10px 10px;
 }
+
