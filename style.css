@@ -11,10 +11,17 @@ main {
 }
 
 a {
-    padding: 10px;
-    color: black;
-    font-size: 14px;
-    text-decoration: none;
+    font-size: 13px;
+    text-align: right;
+    white-space: nowrap;
+    font-family: arial,sans-serif;
+    display: inline-block;
+    line-height: 24px;
+    padding: 0px 15px 0px 0px;
+    outline: none;
+    vertical-align: middle;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;;
 }
 
 a:hover {
@@ -28,15 +35,38 @@ img {
     padding: 150px 10px 10px 10px;
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(230, 230, 230);
-    color: rgb(100,100,100);
-    text-align: left;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    font-size: 16px;
+input {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#lang {
+    font-family: arial,sans-serif;
+    color: #222;
+    font-size: small;
+    margin-bottom: 24px;
+}
+
+#lang a {
+    font-size: small;
+    line-height: 28px;
+    direction: rtl;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    unicode-bidi: isolate;
+    color: #1a0dab;
+    padding: 0 3px;
 }
